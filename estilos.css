@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    background-color: #088199;
+}
+
+.logo{
+    margin-top: 0.5%;
+    margin-bottom: 0.4%;
+    position: relative;
+    left: 5%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.contactanos{
+    position: relative;
+    margin-top: 1%;
+    left: 77%;
+}
+
+.log{
+    padding-right: 6%;
+}
+.logo_sociales{
+    display: flex;
+    position: relative;
+    top: 48px;
+    left: 66%;
+}
+
+.opc_pantallas{
+    display: flex;
+    width: 70.05%;
+    height: 0%;
+    background-color: #75A933;
+    border-top-left-radius: 1.5% 20%;
+    border-bottom-left-radius: 1.5% 20%;
+    position: relative;
+    top: 120px;
+    left: 0.5%;
+}
+.opc_pantalla{
+    
+    font-family: sans-serif;
+    position: relative;
+    left: 4%;
+    padding-right: 6%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.opc_pantalla2{
+    display: flex;
+    position: relative;
+    left: 9%;
+    top: 30px;
+    
+}
+.slide{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.slide img{
+    height: 25%;
+    width: 100%;
+}
+
+.franja_verde{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background-color: #75A933;
+    height: 37px;
+    width: 100%;
+}
+
+.nuestra_tienda{
+    display: flex;
+    
+    
+}
+
+.titu_nues{
+    text-align: center;
+    font-family: sans-serif;
+    color: #0F5FA9;
+    font-size: 40px;
+}
+
+.p_nues{
+    color: #6F6F6F;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.te_mas_info{
+    color: white;
+    border-top-left-radius: 3% 20%;
+    border-bottom-left-radius: 3% 20%;
+    border-top-right-radius: 3% 20%;
+    border-bottom-right-radius: 3% 20%;
+    background-color: #088199;
+    width: 60%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 10%;
+    position: relative;
+    left: 12%;
+}
+
+.tex_nuestra{
+    width: 30%;
+    text-align: justify;
+    position: relative;
+    left: 14%;
+}
+
+.gru_img_in{
+    position: relative;
+    left: 25%;
+    top: 40px;
+}
+
+.recomen{
+    margin-bottom: 1%;
+    position: relative;
+    left: 5.1%;
+    color: white;
+    background-color: #15337D;
+    height: 65px;
+    width: 90%;
+}
+
+.titu_recomen{
+    font-size: 250%;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.img_reco img{
+    width: 90.3%;
+    height: 50%;
+}
+
+.img_reco{
+    text-align: center;
+}
+
+.transpa{
+    background-color: #0F5FA9;
+    height: 40%;
+    width: 90.3%;
+}
