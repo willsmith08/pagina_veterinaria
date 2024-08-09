@@ -133,16 +133,17 @@ a {
     left: 5.1%;
     color: white;
     background-color: #15337D;
-    min-height: 55px;
+    min-height: 70px;
     max-width: 90%;
     
 } 
 
 .titu_recomen{
+    background-color: #15337D;
     font-size: 250%;
     text-align: center;
-    position: relative;
-    top: 5px;
+    color: white;
+    padding-bottom: 2%;
 }
 
 .img_reco img{
@@ -184,3 +185,27 @@ a {
     color: white;
 }
 
+.avionsito1{
+    position: relative;
+    right: 41%;
+    top: 95px;
+}
+
+.text1{
+    text-align: center;
+    position: relative;
+    top: 45px;
+    right: -15%;
+}
+
+.avionsito2{
+    position: relative;
+    right: 15%;
+    top: -30px;
+}
+
+.text2{
+    position: relative;
+    left: -2%;
+    top: -80px;
+}
