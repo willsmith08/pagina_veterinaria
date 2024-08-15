@@ -3,8 +3,10 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
     background-color: #088199;
+    margin-bottom: 1%;
 }
 
 .logo{
@@ -46,29 +48,21 @@ a{
 }
 
 .opc_pantalla{
-
     font-family: sans-serif;
     position: relative;
-    left: 4%;
-    padding-right: 6%;
+    left: 5.5%;
+    padding-right: 7%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
 .opc_pantalla2{
     display: flex;
     position: relative;
-    left: 9%;
+    left: 7%;
     top: 30px;
-    
-}
-.slide{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
 }
 
 .slide img{
-    height: 25%;
     width: 100%;
 }
 
@@ -108,8 +102,6 @@ a{
     width: 75px;
     height: 75px;
     background-size: cover;
-    
-
 }
 
 .franja_verde{
