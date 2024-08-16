@@ -1,4 +1,5 @@
 body{
+    background-image: url(productos-imgs/Fondo\ nubeseado\ 2.png);
     margin: 0%;
 }
 
@@ -123,3 +124,24 @@ a{
     margin-left: 1%;
 }
 
+.contenedor_pro{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.productos{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+
+.producto{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 350px;
+}
