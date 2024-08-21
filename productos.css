@@ -140,7 +140,26 @@ a{
     margin-top: 2%;
 
 }
-
+.promo{
+    position: absolute;
+    left: 26%;
+    top: 95%;
+}
+.promo1{
+    position: absolute;
+    top: 95%;
+    left: 43%;
+}
+.promo2{
+    position: absolute;
+    top: 95%;
+    left: 60%;
+}
+.promo3{
+    position: absolute;
+    top: 95%;
+    left: 77%;
+}
 .producto{
     background-color: white;
     width: 270px;
@@ -173,7 +192,14 @@ a{
     position: relative;
     top: 6%;
 }
-
+#cantidad{
+    font-size: 15px;
+    height: 25px;
+    position: relative;
+    left: 30%;
+    border: none;
+    outline: none;
+}
 .conte_pro{
     display: flex;
 }
@@ -181,7 +207,10 @@ a{
     width: 8%;
     height: 10%;
     position: relative;
-    left: 50%;
+    left: 35%;
+}
+.imgcar{
+    width: 28px;
 }
 .tex_comp{
     background-color: #10C6BB;
@@ -194,6 +223,7 @@ a{
     position: relative;
     top: -10px;
     color: black;
+    border: none;
 }
 .pro{
     background-color: #10C6BB;
@@ -206,6 +236,7 @@ a{
     position: relative;
     top: 6px;
     color: black;
+    border: none;
 }
 
 .pro:hover{

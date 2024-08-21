@@ -1,0 +1,110 @@
+body{
+    background-image: url(productos-imgs/Fondo\ nubeseado\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #088199;
+    margin-bottom: 1%;
+}
+
+.logo{
+    margin-top: 0.5%;
+    margin-bottom: 0.4%;
+    position: relative;
+    left: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contactanos{
+    position: relative;
+    margin-top: 1%;
+    left: 77%;
+}
+
+.log{
+    padding-right: 6%;
+}
+.logo_sociales{
+    display: flex;
+    position: relative;
+    top: 48px;
+    left: 66%;
+}
+
+.opc_pantallas{
+    display: flex;
+    width: 70.05%;
+    height: 0%;
+    background-color: #75A933;
+    border-top-left-radius: 1.5% 20%;
+    border-bottom-left-radius: 1.5% 20%;
+    position: relative;
+    top: 120px;
+    left: 0.8%;
+}
+
+.opc_pantalla{
+    font-family: sans-serif;
+    position: relative;
+    left: 5.5%;
+    padding-right: 7%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.opc_pantalla2{
+    display: flex;
+    position: relative;
+    left: 7%;
+    top: 30px;
+}
+.d_titu_serv{
+    width: 100%;
+    margin-top: 5%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.titu_serv{
+    background-color: #5EB9C3;
+    color: white;
+    width: 60%;
+    min-height: 70px;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.div_fondo_por{
+    display: flex;
+    justify-content: center;
+}
+.fondo_por{
+    background-image: url(servicios-imgs/img\ fondo\ por.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 44.4vh;
+    margin-top: 1%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.fondo_por p{
+    font-size: 20px;
+    width: 70%;
+    position: relative;
+    left: 16%;
+}
+.img_por{
+    width: 1800px;
+    height: 100%;
+}
