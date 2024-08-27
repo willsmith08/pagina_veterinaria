@@ -165,6 +165,54 @@ a {
     top: 95%;
     left: 77%;
 }
+.promo5{
+    position: absolute;
+    top: 69vw;
+    left: 26%;
+    z-index: 1;
+}
+.promo6{
+    position: absolute;
+    top: 69vw;
+    left: 43%;
+    z-index: 1;
+}
+.promo7{
+    position: absolute;
+    top: 69vw;
+    left: 60%;
+    z-index: 1;
+}
+.promo8{
+    position: absolute;
+    top: 69vw;
+    left: 77%;
+    z-index: 1;
+}
+.promo9{
+    position: absolute;
+    top: 92vw;
+    left: 26%;
+    z-index: 1;
+}
+.promo10{
+    position: absolute;
+    top: 92vw;
+    left: 43%;
+    z-index: 1;
+}
+.promo11{
+    position: absolute;
+    top: 92vw;
+    left: 60%;
+    z-index: 1;
+}
+.promo12{
+    position: absolute;
+    top: 92vw;
+    left: 77%;
+    z-index: 1;
+}
 .producto{
     background-color: white;
     width: 270px;
