@@ -156,10 +156,18 @@ a {
 .persona img{
     height: 20vw;
 }
+.persona h4{
+    font-size: 1.3vw;
+}
+.persona h5{
+    font-size: 1.2vw;
+}
 .contenido_equipo{
     font-family: sans-serif;
 }
-
+.flecha{
+    height: 5vw;
+}
 .cifras{
     color: white;
     margin-top: 40px;
