@@ -301,7 +301,7 @@ a {
 .pie_pagina{
     background-color: #011820;
     width: 100%;
-    height: 45vh;
+    height: 65vh;
     color: white;
     flex-wrap: wrap;
     display: flex;
@@ -310,7 +310,7 @@ a {
 .conte_pie{
     position: relative;
     top: 8%;
-    height: 38vh;
+    height: 26vw;
     font-family: sans-serif;
     flex: 1;
     border-right: 1px solid white ;

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Texto al Pasar el Mouse</title>
+    <style>
+        .cambiar-texto::after {
+            content: ' '; /* Espacio vacío por defecto */
+            display: inline-block;
+            transition: content 0.3s ease;
+        }
+
+        .cambiar-texto:hover::after {
+            content: ' - ¡Texto cambiado!';
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="cambiar-texto">Pasa el mouse por encima de este texto.</p>
+</body>
+</html>
