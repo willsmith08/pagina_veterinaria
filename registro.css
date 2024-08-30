@@ -1,0 +1,189 @@
+body{
+    margin: 0%;
+}
+
+header{
+    position: relative;
+    background-color: #088199;
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo_pagina{
+    height: 7vw;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+header p{
+    font-family: sans-serif, bold;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 82%;
+    top: 1%;
+}
+.redes_sociales{
+    position: absolute;
+    left: 84%;
+    display: flex;
+}
+.socia{
+    margin-left: 5%;
+}
+.social{
+    height: 2.3vw;    
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.opcs_pantallas{
+    display: flex;
+    align-items: center;
+    background-color: #75A933;
+    width: 75%;
+    height: 5.5vw;
+    align-content: center;
+    position: absolute;
+    left: 25%;
+    top: 75%;
+    border-top-left-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+}
+.opc_pantalla{
+    color: #fff;
+    margin-right: 6%;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    position: relative;
+    left: 6%;
+    display: flex;
+}
+.opc_pantalla2{
+    height: 2.6vw;
+}
+.contenedor_registrarse{
+    margin-top: 1vw;
+    width: 100%;
+    height: 70vw;
+    position: relative;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1vw;
+}
+.backgroud_registrarse{
+    background-image: url(registrarse-imgs/fondo.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.contenedor1, .contenedor2{
+    background-color: #0000006e;
+    width: 60%;
+    height: 40%;
+    border-radius: 0.4vw;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 4vw;
+    border: 0.3vw solid #fff;
+}
+.contenedor1 h1{
+    color: #FF5E5E;
+    margin-bottom: 4%;
+}
+.contenedor1{
+    align-content: center;
+    height: 25vw;
+}
+.contenedor2 h1{
+    color: #FF5E5E;
+    margin-top: 3%;
+    font-size: 2.5vw;
+}
+.contenedor1 label{
+    display: block;
+}
+.contenedor1 input{
+    margin-bottom: 23%;
+    height: 1.95vw;
+    width: 120%;
+    border-radius: 0.3vw;
+    border: none;
+}
+.contenido1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 15%;
+}
+.contenedor2 label{
+    display: block;
+}
+#nombre_pet{
+    height: 1.95vw;
+    width: 100%;
+    border-radius: 0.3vw;
+    border: none;
+}
+.contenido2{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.contenido2 select{
+    width: 120%;
+}
+
+
+
+.pie_pagina{
+    background-color: #011820;
+    width: 100%;
+    height: 45vh;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.conte_pie{
+    position: relative;
+    top: 8%;
+    height: 38vh;
+    font-family: sans-serif;
+    flex: 1;
+    border-right: 1px solid white ;
+    text-align: center;
+    
+}
+
+.log_pie{
+    margin-right: 14px;
+}
+
+.t_pie{
+    font-size: 23px;
+}
+
+.cont1_h{
+    position: relative;
+    right: 4.5vw;
+}
+
+.cont1_p{
+    position: relative;
+    right: 2vw;
+}
