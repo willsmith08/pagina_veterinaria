@@ -89,64 +89,185 @@ a {
     background-size: cover;
     z-index: -1;
 }
-.contenedor1, .contenedor2{
+.contenedor1{
+    width: 55%;
+    height: 20vw;
     background-color: #0000006e;
-    width: 60%;
-    height: 40%;
-    border-radius: 0.4vw;
     text-align: center;
-    color: #fff;
-    font-family: sans-serif;
-    margin-top: 4vw;
     border: 0.3vw solid #fff;
+    border-radius: 0.4vw;
 }
 .contenedor1 h1{
     color: #FF5E5E;
-    margin-bottom: 4%;
-}
-.contenedor1{
-    align-content: center;
-    height: 25vw;
-}
-.contenedor2 h1{
-    color: #FF5E5E;
-    margin-top: 3%;
     font-size: 2.5vw;
+    font-family: sans-serif;
+    margin-bottom: 5%;
 }
 .contenedor1 label{
     display: block;
-}
-.contenedor1 input{
-    margin-bottom: 23%;
-    height: 1.95vw;
-    width: 120%;
-    border-radius: 0.3vw;
-    border: none;
+    color: #fff;
+    text-align: justify;
 }
 .contenido1{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: justify;
-    gap: 15%;
+    gap: 10%;
+}
+.contenido1 input{
+    width: 17vw;
+    height: 1.8vw;
+    margin-bottom: 15%;
+    border-radius: 0.2vw;
+    border: none;
+}
+.contenedor2{
+    margin-top: 4%;
+    width: 55%;
+    height: 25vw;
+    background-color: #0000006e;
+    text-align: center;
+    border: 0.3vw solid #fff;
+    border-radius: 0.4vw;
+}
+.contenedor2 h1{
+    color: #FF5E5E;
+    font-size: 2.5vw;
+    font-family: sans-serif;
+    margin-bottom: 5%;
 }
 .contenedor2 label{
     display: block;
+    color: #fff;
+    text-align: justify;
 }
-#nombre_pet{
-    height: 1.95vw;
-    width: 100%;
-    border-radius: 0.3vw;
+.fila1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+#nombre_mascota{
+    width: 16vw;
+    height: 1.7vw;
+    border-radius: 0.2vw;
     border: none;
 }
-.contenido2{
+.nombre_mascota{
+    position: relative;
+    left: 45%;
+}
+#genero, #edad{
+    width: 5vw;
+    height: 1.7vw;
+    border-radius: 0.2vw;
+    border: none;
+}
+.genero{
+    position: relative;
+    left: 45%;
+}
+#raza{
+    width: 6vw;
+    height: 1.7vw;
+    border-radius: 0.2vw;
+    border: none;
+}
+.raza{
+    position: relative;
+    right: 40%;
+}
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    width: 1.2vw;  
+    height: 1.2vw; 
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-container .checkmark {
+    display: none; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; 
+    color: #000000; 
+}
+
+.checkbox-container input[type="checkbox"]:checked + .checkmark {
+    display: block; 
+}
+.fila2{
+    margin-top: 1%;
+    color: #fff;
+}
+.fila2 label{
+    position: relative;
+    left: 13.5%;
+}
+.fila2 p{
+    position: relative;
+    bottom: 1.8vw;
+    left: 10%;
+    width: 43%;
+}
+.boton-container {
     display: flex;
-    gap: 1%;
     justify-content: center;
+    gap: 2vw;
 }
-.contenido2 select{
-    width: 120%;
+
+.boton-container input[type="radio"] {
+    display: none; 
 }
+
+.boton-container label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px; 
+    border: 0.3vw solid #fff; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.3s;
+}
+
+.boton-container img {
+    height: 2.2vw;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #3355AB; 
+    border-color: #fff; 
+}
+.contenedor2 button{
+    margin-top: 5%;
+    background-color: #07B0A6;
+    border: none;
+    width: 20%;
+    height: 2.8vw;
+    border-radius: 0.2vw;
+    color: #fff;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

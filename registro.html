@@ -48,23 +48,51 @@
         </div>
         <div class="contenedor2">
             <h1>Mi peludo</h1>
-            <div class="contenido2">
-                <div>
-                    <label for="nombre_pet">Nombre</label>
-                    <input type="text" id="nombre_pet">
+            <div class="conenido2">
+                <div class="fila1">
+                    <div class="nombre_mascota">
+                        <label for="nombre_mascota">Nombre</label>
+                        <input type="text" id="nombre_mascota">
+                    </div>
+                    <div class="genero">
+                        <label for="genero">Genero</label>
+                        <select name="genero" id="genero">
+                            <option value="">M</option>
+                            <option value="">F</option>
+                        </select>
+                    </div>
+    
+                    <div class="edad">
+                        <label for="edad">Edad</label>
+                        <input type="text" id="edad">
+                    </div>
+    
+                    <div class="raza">
+                        <label for="raza">Raza</label>
+                        <select name="raza" id="raza"></select>
+                    </div>
                 </div>
-                <div>
-                    <label for="genero">Genero</label>
-                    <select name="genero" id="genero">
-                        <option value="M">M</option>
-                        <option value="F">F</option>
-                    </select>
+                <div class="fila2">
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark">✔</span>
+                    </label>
+                    <p>Autorizo el tratamiento de mis datos personales</p>
                 </div>
-                <div>
-                    <label for="edad">Edad</label>
-                    <select name="edad" id="edad">
-                    </select>
+                <div class="fila3">
+                    <div class="boton-container">
+                        <input type="radio" id="boton1" name="opcion" checked>
+                        <label for="boton1">
+                            <img src="citas-imgs/Cat Profile.png" alt="Imagen 1">
+                        </label>
+                
+                        <input type="radio" id="boton2" name="opcion">
+                        <label for="boton2">
+                            <img src="citas-imgs/Dog.png" alt="Imagen 2">
+                        </label>
+                    </div>
                 </div>
+                <button type="submit">Registrase</button>
             </div>
         </div>
     </div>
