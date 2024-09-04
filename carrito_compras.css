@@ -1,0 +1,213 @@
+body{
+    margin: 0%;
+    background-color: #e9e9e9;
+}
+
+header{
+    position: relative;
+    background-color: #088199;
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo_pagina{
+    height: 7vw;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+header p{
+    font-family: sans-serif, bold;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 82%;
+    top: 1%;
+}
+.redes_sociales{
+    position: absolute;
+    left: 84%;
+    display: flex;
+}
+.socia{
+    margin-left: 5%;
+}
+.social{
+    height: 2.3vw;    
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.opcs_pantallas{
+    display: flex;
+    align-items: center;
+    background-color: #75A933;
+    width: 75%;
+    height: 5.5vw;
+    align-content: center;
+    position: absolute;
+    left: 25%;
+    top: 75%;
+    border-top-left-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+}
+.opc_pantalla{
+    color: #fff;
+    margin-right: 6%;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    position: relative;
+    left: 6%;
+    display: flex;
+}
+.opc_pantalla2{
+    height: 2.6vw;
+}
+.contene_carrito{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 2%;
+    margin-top: 6%;
+}
+.contenido_carrito{
+    width: 90%;
+    height: auto;
+}
+.producto_carrito{
+    width: 100%;
+    height: 17vw;
+    background-color: #fff;
+    margin-bottom: 3%;
+    box-shadow: 1.5px 1.5px 5px #767676;
+    border-radius: 0.5vw;
+    position: relative;
+}
+.cabecera_pro1, .cabecera_pro2, .cabecera_pro3, .cabecera_pro4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 0.3vw;
+    font-family: sans-serif;
+    color: #3B3C3B;
+    font-size: 1vw;
+    box-shadow: 1px 1px 3px #767676;
+}
+.cabecera_pro1{
+    background-color: #F99C46;
+}
+.cabecera_pro2{
+    background-color: #3AB7A0;
+}
+.cabecera_pro3{
+    background-color: #61B5C8;
+}
+.cabecera_pro4{
+    background-color: #ACB4FF;
+}
+.la_x{
+    position: relative;
+    left: 63%;
+}
+.titu{
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.contenido_producto{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 2px #7676767e;
+}
+.contenido_producto img{
+    height: 9vw;
+    margin-left: 95%;
+}
+.contenido_producto b{
+    position: relative;
+    left: 15%;
+    bottom: 20%;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+    width: 10vw;
+    text-align: center;
+    
+}
+.tienda{
+    font-size: 0.9vw;
+    color: #F91919;
+    position: absolute;
+    left: 29%;
+    top: 53%;
+}
+.comprar{
+    color: #10C6BB;
+    position: absolute;
+    left: 43%;
+    top: 65%;
+    font-size: 1vw;
+}
+#cantidad{
+    position: absolute;
+    left: 65%;
+    width: 13%;
+    height: 1.7vw;
+    font-size: 0.7vw;
+    border: 0.2vw solid #000;
+    border-radius: 0.2vw;
+}
+.dispo{
+    color: #3B3C3B;
+    position: absolute;
+    top: 55.5%;
+    left: 63%;
+    font-size: 0.1vw;
+}
+.porcentaje{
+    position: absolute;
+    top: 38%;
+    left: 82%;
+    color: #2AAD1E;
+    font-family: sans-serif;
+}
+.precio_anterior{
+    text-decoration: line-through;
+    position: absolute;
+    top: 38%;
+    left: 87%;
+}
+.precio_actual{
+    position: absolute;
+    top: 44%;
+    left: 80%;
+}
+.precio_actual b{
+    font-family: sans-serif;
+    font-size: 1.3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.total_compra{
+    width: 30%;
+}
