@@ -66,3 +66,15 @@ a {
 .opc_pantalla2{
     height: 2.6vw;
 }
+
+
+.atras{
+    position: relative;
+    top: 2vw;
+    left: 3%;
+    width: 7%;
+    height: 1.8vw;
+    background-color: #10C6BB;
+    border: none;
+    border-radius: 0.2vw;
+}
